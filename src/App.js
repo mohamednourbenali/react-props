@@ -1,22 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Profile from './profile/Profile';
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Profile name="mohamed nour ben ali" bio="born in 03 novembre 1991 in TUNSIA" profession="fitness coach" />
+
       </header>
     </div>
   );
